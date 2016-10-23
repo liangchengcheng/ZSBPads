@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.lcc.msdq">
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.MANAGE_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.GET_ACCOUNTS"/>
+    <!-- 蓝牙分享所需的权限 -->
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <!-- 拍照权限 -->
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+    <!--弹窗-->
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
+    <uses-permission android:name="android.permission.SYSTEM_OVERLAY_WINDOW" />
+
+    <uses-permission
+        android:name="android.permission.PACKAGE_USAGE_STATS"
+        tools:ignore="ProtectedPermissions" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+
+    <application
+        android:name="com.lcc.App"
+        android:allowBackup="true"
+        android:icon="@mipmap/s2"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:replace="android:icon">
+
+        <activity
+            android:name=".SplashActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/AppTheme" />
+
+        <activity
+            android:name=".compony.question.CompanyContentActivity"
+            android:theme="@style/AppTheme" />
+
+        <activity
+            android:name=".login.LoginActivity"
+            android:theme="@style/AppTheme" />
+
+        <activity
+            android:name=".login.ResetPasswordActivity"
+            android:theme="@style/AppTheme" />
+
+        <activity
+            android:name=".login.SignUpActivity"
+            android:theme="@style/AppTheme" />
+
+        <activity
+            android:name=".choice.ChoiceMainActivity"
+            android:theme="@style/AppTheme" />
+
+        <activity
+            android:name=".index.activity.IndexContentActivity"
+            android:theme="@style/AppTheme" />
+
+        <activity
+            android:name=".index.activity.IndexWebView"
+            android:theme="@style/AppTheme" />
+
+        <activity
+            android:name=".comments.CommentsActivity"
+            android:theme="@style/AppTheme" />
+
+        <activity
+            android:name=".setting.SettingActivity"
+            android:theme="@style/AppTheme" />
+
+        <activity
+            android:name=".test.answer.AnswerIndexActivity"
+            android:theme="@style/AppTheme" />
+
+        <activity
+            android:name=".test.answer.AnswerAddActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".test.answer.AnswerContentActivity"
+            android:theme="@style/AppTheme" />
+
+        <activity
+            android:name=".index.article.IndexMenuActivity"
+            android:theme="@style/AppTheme" />
+
+        <activity
+            android:name=".index.article.IndexMenuWebView"
+            android:theme="@style/AppTheme" />
+
+        <activity
+            android:name=".setting.FeedBackActivity"
+            android:theme="@style/AppTheme" />
+
+        <activity
+            android:name=".compony.answer.CompanyAnswerIndexActivity"
+            android:theme="@style/AppTheme" />
+
+        <activity
+            android:name=".description.user.UserProfileActivity"
+            android:theme="@style/AppTheme" />
+
+        <activity
+            android:name=".compony.answer.CompanyAnswerWebView"
+            android:theme="@style/AppTheme" />
+
+        <activity
+            android:name=".news.NewsIndex"
+            android:theme="@style/AppTheme" />
+
+        <activity
+            android:name=".flow.FlowIndex"
+            android:theme="@style/AppTheme" />
+
+        <activity
+            android:name=".compony.question.ComquestionAddActivity"
+            android:theme="@style/AppTheme" />
+
+        <activity
+            android:name=".description.user.UserEditActivity"
+            android:theme="@style/AppTheme" />
+
+        <activity
+            android:name=".description.com.CompanyDesMain"
+            android:theme="@style/AppTheme" />
+
+        <activity
+            android:name=".choice.ChoiceTypeoneActivity"
+            android:theme="@style/AppTheme" />
+
+        <activity
+            android:name=".choice.ChoiceTypetwoActivity"
+            android:theme="@style/AppTheme" />
+
+        <activity
+            android:name=".GuideActivity"
+            android:theme="@style/AppTheme" />
+
+        <activity
+            android:name=".AboutActivity"
+            android:theme="@style/AppTheme" />
+
+        <activity
+            android:name=".favorite.FavoriteList"
+            android:theme="@style/AppTheme" />
+
+        <activity
+            android:name=".fabu.FabuList"
+            android:theme="@style/AppTheme" />
+
+        <activity
+            android:name=".compony.CompanyAddActivity"
+            android:theme="@style/AppTheme" />
+
+        <activity
+            android:name=".choice.AreaSelectActivity"
+            android:theme="@style/AppTheme" />
+
+        <activity
+            android:name=".personinfo.HelpActivity"
+            android:theme="@style/AppTheme" />
+
+        <activity
+            android:name=".news.xtnews.XtNewsActivity"
+            android:theme="@style/AppTheme" />
+
+        <activity
+            android:name=".news.znews.ZNewsActivity"
+            android:theme="@style/AppTheme" />
+
+        <activity
+            android:name=".PhotoPickerActivity"
+            android:theme="@style/AppTheme" />
+
+        <activity
+            android:name=".description.other.OtherUserProfileActivity"
+            android:theme="@style/AppTheme" />
+
+        <activity
+            android:name=".news.letternews.LetterActivity"
+            android:theme="@style/AppTheme" />
+
+        <activity
+            android:name=".news.letternews.LetterDetailsActivity"
+            android:theme="@style/AppTheme" />
+
+        <activity
+            android:name=".choice.ChoiceAreaSelectActivity"
+            android:theme="@style/AppTheme" />
+
+        <activity
+            android:name="com.mob.tools.MobUIShell"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustResize" >
+
+            <intent-filter>
+                <data android:scheme="tencent100371282" />
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+
+            <!-- 调用新浪原生SDK，需要注册的回调activity -->
+            <intent-filter>
+                <action android:name="com.sina.weibo.sdk.action.ACTION_SDK_REQ_ACTIVITY" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <!--微信分享回调 -->
+        <activity
+            android:name=".wxapi.WXEntryActivity"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:exported="true"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".test.choice.ChoiceA_Activity"
+            android:theme="@style/AppTheme" />
+
+        <activity
+            android:name=".test.choice.ChoiceB_Activity"
+            android:theme="@style/AppTheme" />
+
+        <activity
+            android:name=".test.TestAddActivity"
+            android:theme="@style/AppTheme" />
+
+        <activity
+            android:name=".news.replaynews.ReplayActivity"
+            android:theme="@style/AppTheme" />
+
+        <activity
+            android:name=".compony.answer.AnswerAddActivity"
+            android:theme="@style/AppTheme" />
+
+        <activity
+            android:name=".compony.answer.PhotoActivity"
+            android:theme="@style/AppTheme" />
+
+        <activity
+            android:name=".look.fav.ArticlesWebView"
+            android:theme="@style/AppTheme" />
+
+        <activity
+            android:name=".look.fav.LookQuestionsActivity"
+            android:theme="@style/AppTheme" />
+
+        <activity
+            android:name=".look.fav.LookComQuestionIndexActivity"
+            android:theme="@style/AppTheme" />
+
+        <activity
+            android:name=".login.PhoneActivity"
+            android:theme="@style/AppTheme" />
+
+        <activity
+            android:name=".login.CodeActivity"
+            android:theme="@style/AppTheme" />
+        <!--有米广告 -->
+        <activity
+            android:name="net.youmi.android.AdBrowser"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+            android:theme="@android:style/Theme.Light.NoTitleBar" >
+        </activity>
+        <service
+            android:name="net.youmi.android.AdService"
+            android:exported="false" >
+        </service>
+        <receiver
+            android:name="net.youmi.android.AdReceiver" >
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_ADDED" />
+                <data android:scheme="package" />
+            </intent-filter>
+        </receiver>
+    </application>
+</manifest>

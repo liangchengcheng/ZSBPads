@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources
+    xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+    <string-array name="tiaojian1">
+        <item>全部时间</item>
+        <item>最近一周</item>
+        <item>最近一月</item>
+        <item>最近一年</item>
+    </string-array>
+
+    <string-array name="tiaojian2">
+        <item>全部题型</item>
+        <item>专业知识</item>
+        <item>人事知识</item>
+        <item>其他</item>
+    </string-array>
+
+    <string-array name="tiaojian3">
+        <item>综合排序</item>
+        <item>最多收藏</item>
+        <item>最新发布</item>
+    </string-array>
+
+    <string-array name="zhiye">
+        <item>编辑</item>
+        <item>会计</item>
+        <item>文员</item>
+        <item>产品经理</item>
+        <item>人事</item>
+        <item>客服</item>
+        <item>销售</item>
+        <item>平面设计</item>
+        <item>程序员</item>
+    </string-array>
+
+</resources>

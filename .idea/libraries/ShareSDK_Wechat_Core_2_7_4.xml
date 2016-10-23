@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="ShareSDK-Wechat-Core-2.7.4">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/SMSSDK/libs/ShareSDK-Wechat-Core-2.7.4.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

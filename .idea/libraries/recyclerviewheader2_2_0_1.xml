@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="recyclerviewheader2-2.0.1">
+    <ANNOTATIONS>
+      <root url="jar://$PROJECT_DIR$/msdq/build/intermediates/exploded-aar/com.bartoszlipinski/recyclerviewheader2/2.0.1/annotations.zip!/" />
+    </ANNOTATIONS>
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/msdq/build/intermediates/exploded-aar/com.bartoszlipinski/recyclerviewheader2/2.0.1/res" />
+      <root url="jar://$PROJECT_DIR$/msdq/build/intermediates/exploded-aar/com.bartoszlipinski/recyclerviewheader2/2.0.1/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.bartoszlipinski/recyclerviewheader2/2.0.1/36edb3851468ca35862449eb76bae465628211ba/recyclerviewheader2-2.0.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

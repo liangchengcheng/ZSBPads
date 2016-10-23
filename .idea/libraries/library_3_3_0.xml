@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="library-3.3.0">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/msdq/build/intermediates/exploded-aar/com.sothree.slidinguppanel/library/3.3.0/res" />
+      <root url="jar://$PROJECT_DIR$/msdq/build/intermediates/exploded-aar/com.sothree.slidinguppanel/library/3.3.0/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.sothree.slidinguppanel/library/3.3.0/6b166f2637eff821b4f6c84d6c893f307f08e996/library-3.3.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

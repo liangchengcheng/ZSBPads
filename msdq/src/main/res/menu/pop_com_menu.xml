@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/open"
+        android:title="切换城市"/>
+    <item
+        android:id="@+id/news"
+        android:title="新建公司"/>
+</menu>

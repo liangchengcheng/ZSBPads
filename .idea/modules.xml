@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/SMSSDK/SMSSDK.iml" filepath="$PROJECT_DIR$/SMSSDK/SMSSDK.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ZSBPads.iml" filepath="$PROJECT_DIR$/ZSBPads.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fragmentlibrary/fragmentlibrary.iml" filepath="$PROJECT_DIR$/fragmentlibrary/fragmentlibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/msdq/msdq.iml" filepath="$PROJECT_DIR$/msdq/msdq.iml" />
+      <module fileurl="file://$PROJECT_DIR$/nice-spinner/nice-spinner.iml" filepath="$PROJECT_DIR$/nice-spinner/nice-spinner.iml" />
+      <module fileurl="file://$PROJECT_DIR$/richText/richText.iml" filepath="$PROJECT_DIR$/richText/richText.iml" />
+      <module fileurl="file://$PROJECT_DIR$/superlibrary/superlibrary.iml" filepath="$PROJECT_DIR$/superlibrary/superlibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/vitamio/vitamio.iml" filepath="$PROJECT_DIR$/vitamio/vitamio.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="?android:listPreferredItemHeight"
+    android:paddingTop="16dp"
+    android:paddingRight="16dp"
+    android:paddingBottom="16dp"
+    android:clipToPadding="false"
+    android:id="@+id/ll_all"
+    android:foreground="?android:selectableItemBackground"
+    >
+
+    <ImageView
+        android:id="@+id/player_avatar"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginEnd="12dp"
+        android:layout_marginStart="12dp"
+        android:padding="4dp"
+        android:src="@drawable/avatar_placeholder" />
+
+    <TextView
+        android:id="@+id/time_ago"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        tools:text="3 hours ago" />
+
+    <TextView
+        android:id="@+id/player_name"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/player_avatar"
+        android:layout_toLeftOf="@id/time_ago"
+        android:layout_marginRight="8dp"
+        android:lines="1"
+        android:ellipsize="end"
+        tools:text="Nick B" />
+
+    <TextView
+        android:id="@+id/player_bio"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/player_avatar"
+        android:layout_below="@id/player_name"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="4dp"
+        android:maxLines="2"
+        android:ellipsize="end"
+        tools:text="Blah blah blah blah blah blah blah blah blah blah blah blah blah"
+       />
+
+</RelativeLayout>

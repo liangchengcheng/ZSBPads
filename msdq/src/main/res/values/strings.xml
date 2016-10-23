@@ -1,0 +1,58 @@
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+    <string name="app_name">抽抽面试助手</string>
+    <string name="popular">Popular</string>
+    <string name="home">Home</string>
+    <string name="account">Account</string>
+    <string name="change_theme_key">change_theme_key</string>
+    <string name="page">Page %1$d</string>
+    <string name="msg_error_phone">请输入正确的手机号码</string>
+    <string name="msg_error_username">昵称不能为空</string>
+    <string name="msg_error_password">请输入6到16位数字或字母密码</string>
+    <string name="layout_str_msg_login_successs"> 登录成功</string>
+    <string name="layout_str_hint_login"> 登录</string>
+    <string name="layout_str_hint_sign_up">注册</string>
+    <string name="layout_str_hint_new_pwd">重置密码</string>
+    <string name="layout_str_hint_phone"> 手机</string>
+    <string name="layout_str_hint_password">密码</string>
+    <string name="layout_str_hint_input_code">请输入验证码</string>
+    <string name="msg_get_verify_code">点击获取</string>
+    <string name="msg_verify_code_point">秒后获取</string>
+    <string name="share_tail">\r\n(分享自小城面试助手！)</string>
+    <string name="share">分享到</string>
+    <string name="retract">收起</string>
+    <string name="spread">展开</string>
+    <string name="login">登录注册</string>
+    <string name="sbgg">随便逛逛</string>
+    <string name="xmjs">这个项目是我用的下班的业余的时间写的一个项目，目的是为了收集面试题相关的资料，方便大家为面试做准备，后续将不断优化和完善相关的功能。</string>
+    <string name="zwjs">我是一名android开发者，从事android开发有一段时间了，我特别喜欢编程。</string>
+    <string name="toast_press_again_to_exit">再按一次退出程序</string>
+    <string name="login_end">请登录后操作~</string>
+    <item name="tag_position" type="id" />
+    <item name="tag_photo" type="id" />
+
+    <string-array name="user_photos">
+        <item>http://scontent-a-fra.cdninstagram.com/hphotos-xpf1/t51.2885-15/s306x306/e15/10665483_429615813855717_1490926670_n.jpg</item>
+        <item>http://scontent-b-fra.cdninstagram.com/hphotos-xaf1/t51.2885-15/s306x306/e15/10891026_694434897342602_1094773634_n.jpg</item>
+        <item>http://scontent-a-fra.cdninstagram.com/hphotos-xaf1/t51.2885-15/s306x306/e15/10894920_1382218332084671_10354293_n.jpg</item>
+        <item>http://scontent-b-fra.cdninstagram.com/hphotos-xfa1/t51.2885-15/s306x306/e15/10895429_768163716566132_692639371_n.jpg</item>
+        <item>http://scontent-b-fra.cdninstagram.com/hphotos-xaf1/t51.2885-15/s306x306/e15/10899087_405295322969722_20422376_n.jpg</item>
+        <item>http://scontent-a-fra.cdninstagram.com/hphotos-xaf1/t51.2885-15/s306x306/e15/10899123_922231267802027_1123900984_n.jpg</item>
+        <item>http://scontent-a-fra.cdninstagram.com/hphotos-xfa1/t51.2885-15/s306x306/e15/10903214_589111004559561_1485881959_n.jpg</item>
+        <item>http://scontent-a-fra.cdninstagram.com/hphotos-xfa1/t51.2885-15/s306x306/e15/10914479_770066599745785_704061869_n.jpg</item>
+        <item>http://scontent-a-fra.cdninstagram.com/hphotos-xfa1/t51.2885-15/s306x306/e15/10914587_1580079332227764_829762970_n.jpg</item>
+        <item>http://scontent-b-fra.cdninstagram.com/hphotos-xfa1/t51.2885-15/s306x306/e15/10919231_605000369644967_1578007175_n.jpg</item>
+        <item>http://scontent-b-fra.cdninstagram.com/hphotos-xaf1/t51.2885-15/s306x306/e15/10932142_330866587116424_1327271556_n.jpg</item>
+        <item>http://scontent-b-fra.cdninstagram.com/hphotos-xfa1/t51.2885-15/s306x306/e15/10932410_1544715455813452_1107632347_n.jpg</item>
+        <item>http://scontent-a-fra.cdninstagram.com/hphotos-xfp1/t51.2885-15/s306x306/e15/891516_579817258815508_1989379587_n.jpg</item>
+        <item>http://scontent-b-fra.cdninstagram.com/hphotos-xaf1/t51.2885-15/s306x306/e15/1922172_719849754801056_911351010_n.jpg</item>
+        <item>http://scontent-b-fra.cdninstagram.com/hphotos-xaf1/t51.2885-15/s306x306/e15/10914370_1519297625009641_722250486_n.jpg</item>
+        <item>http://scontent-a-fra.cdninstagram.com/hphotos-xaf1/t51.2885-15/s306x306/e15/10903746_368501953321344_2002746420_n.jpg</item>
+        <item>http://scontent-b-fra.cdninstagram.com/hphotos-xaf1/t51.2885-15/s306x306/e15/10903270_1397263717236338_950192395_n.jpg</item>
+        <item>http://scontent-a-fra.cdninstagram.com/hphotos-xaf1/t51.2885-15/s306x306/e15/10903242_441936642627221_576882729_n.jpg</item>
+        <item>http://scontent-a-fra.cdninstagram.com/hphotos-xaf1/t51.2885-15/s306x306/e15/10899295_796858437028648_664655000_n.jpg</item>
+        <item>http://scontent-b-fra.cdninstagram.com/hphotos-xaf1/t51.2885-15/s306x306/e15/10899139_948470841831743_1406659049_n.jpg</item>
+        <item>http://scontent-a-fra.cdninstagram.com/hphotos-xaf1/t51.2885-15/s306x306/e15/10899123_922231267802027_1123900984_n.jpg</item>
+        <item>http://scontent-b-fra.cdninstagram.com/hphotos-xaf1/t51.2885-15/s306x306/e15/10899087_405295322969722_20422376_n.jpg</item>
+    </string-array>
+
+</resources>

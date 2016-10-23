@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="gradleJvm" value="1.8" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/SMSSDK" />
+            <option value="$PROJECT_DIR$/fragmentlibrary" />
+            <option value="$PROJECT_DIR$/msdq" />
+            <option value="$PROJECT_DIR$/nice-spinner" />
+            <option value="$PROJECT_DIR$/richText" />
+            <option value="$PROJECT_DIR$/superlibrary" />
+            <option value="$PROJECT_DIR$/vitamio" />
+          </set>
+        </option>
+        <option name="myModules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/SMSSDK" />
+            <option value="$PROJECT_DIR$/fragmentlibrary" />
+            <option value="$PROJECT_DIR$/msdq" />
+            <option value="$PROJECT_DIR$/nice-spinner" />
+            <option value="$PROJECT_DIR$/richText" />
+            <option value="$PROJECT_DIR$/superlibrary" />
+            <option value="$PROJECT_DIR$/vitamio" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>
