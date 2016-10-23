@@ -54,7 +54,7 @@ public class AboutActivity extends BaseActivity implements View.OnClickListener 
      */
     private void runApp() {
         //初始化SDK
-        AdManager.getInstance(AboutActivity.this).init("3d1578baf5b6f77d", "61a61a1f986043db", true, true);
+        AdManager.getInstance(AboutActivity.this).init("3d1578baf5b6f77d", "61a61a1f986043db", false, true);
         //设置开屏
         setupSplashAd();
     }
