@@ -19,7 +19,6 @@ import java.util.concurrent.TimeUnit;
 import zsbpj.lccpj.frame.FrameManager;
 import zsbpj.lccpj.utils.LogUtils;
 
-
 public class App extends Application {
 
     private static final String CANARO_EXTRA_BOLD_PATH = "fonts/canaro_extra_bold.otf";
